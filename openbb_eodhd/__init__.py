@@ -1,0 +1,1 @@
+"""openbb_eodhd subpackage."""

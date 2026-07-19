@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "openbb-eodhd"
+version = "0.1.0"
+description = 'Generated OpenBB Platform extension bundle (eodhd).'
+requires-python = ">=3.10,<4"
+license = { text = "AGPL-3.0-only" }
+dependencies = [
+    "openbb-core>=2.0.0",
+]
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["openbb_eodhd"]
+
+
+[project.entry-points."openbb_provider_extension"]
+eodhd = "openbb_eodhd.providers.eodhd:eodhd_provider"
+
+[project.entry-points."openbb_core_extension"]
+eodhd = "openbb_eodhd.routers.eodhd:router"
+
+[tool.openbb-codegen]
+source_url = 'https://eodhistoricaldata.github.io/EODHD-openapi/openapi.yaml'
+api_version = '3.1.0'
+generator = 'openbb-cli==2.0.0'
+generated_at = '2026-07-19T21:07:17.696125+00:00'
+spec_version = '5'
+spec_sha256 = '62c99a401412fb572aad1525a619a85bc9babe1b168695816b9d9028f935fd36'
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "D"]
+ignore = [
+    "D100", "D101", "D102", "D103", "D104", "D105", "D107",
+    "D200", "D205", "D212", "D401", "D415",
+    "E501", "B008",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
