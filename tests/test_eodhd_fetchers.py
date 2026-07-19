@@ -252,10 +252,9 @@ def test_exchanges_list_fetcher(credentials=test_credentials):
     assert result is None
 
 
-@pytest.mark.skip(reason="HTTP 422: requires at least one identifier filter, e.g. filter[symbol]")
 @pytest.mark.record_http
 def test_id_mapping_fetcher(credentials=test_credentials):
-    params = {}
+    params = {"filter_symbol_": "AAPL.US"}
     fetcher = IdMappingFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
@@ -341,26 +340,26 @@ def test_mp_praams_explore_equity_fetcher(credentials=test_credentials):
     assert result is None
 
 
-@pytest.mark.skip(reason="HTTP 422: requires filter[underlying_symbol] or filter[contract]")
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Stock Options Package")
 @pytest.mark.record_http
 def test_mp_unicornbay_options_contracts_fetcher(credentials=test_credentials):
     params = {
-        "filter_exp_date_eq_": "2026-07-19",
+        "filter_underlying_symbol_": "AAPL.US",
         "filter_exp_date_from_": "2026-07-19",
-        "filter_exp_date_to_": "2026-07-19",
+        "filter_exp_date_to_": "2026-10-19",
     }
     fetcher = MpUnicornbayOptionsContractsFetcher()
     result = fetcher.test(params, credentials)
     assert result is None
 
 
-@pytest.mark.skip(reason="HTTP 422: requires filter[underlying_symbol] or filter[contract]")
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Stock Options Package")
 @pytest.mark.record_http
 def test_mp_unicornbay_options_eod_fetcher(credentials=test_credentials):
     params = {
-        "filter_exp_date_eq_": "2026-07-19",
+        "filter_underlying_symbol_": "AAPL.US",
         "filter_exp_date_from_": "2026-07-19",
-        "filter_exp_date_to_": "2026-07-19",
+        "filter_exp_date_to_": "2026-10-19",
     }
     fetcher = MpUnicornbayOptionsEodFetcher()
     result = fetcher.test(params, credentials)
