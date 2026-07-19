@@ -123,6 +123,7 @@ def vcr_config():
     }
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Corporate Events Package")
 @pytest.mark.record_http
 def test_calendar_dividends_fetcher(credentials=test_credentials):
     params = {
@@ -135,6 +136,7 @@ def test_calendar_dividends_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Corporate Events Package")
 @pytest.mark.record_http
 def test_calendar_earnings_fetcher(credentials=test_credentials):
     params = {"from_": "2026-06-19", "to": "2026-07-19"}
@@ -143,6 +145,7 @@ def test_calendar_earnings_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Corporate Events Package")
 @pytest.mark.record_http
 def test_calendar_ipos_fetcher(credentials=test_credentials):
     params = {"from_": "2026-06-19", "to": "2026-07-19"}
@@ -151,6 +154,7 @@ def test_calendar_ipos_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Corporate Events Package")
 @pytest.mark.record_http
 def test_calendar_splits_fetcher(credentials=test_credentials):
     params = {"from_": "2026-06-19", "to": "2026-07-19"}
@@ -159,6 +163,7 @@ def test_calendar_splits_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD CBOE Europe Indices subscription")
 @pytest.mark.record_http
 def test_cboe_indices_fetcher(credentials=test_credentials):
     params = {}
@@ -167,6 +172,7 @@ def test_cboe_indices_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_cds_market_aggregates_fetcher(credentials=test_credentials):
     params = {}
@@ -175,6 +181,7 @@ def test_credit_risk_cds_market_aggregates_fetcher(credentials=test_credentials)
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_corporate_cmdi_fetcher(credentials=test_credentials):
     params = {}
@@ -183,6 +190,7 @@ def test_credit_risk_corporate_cmdi_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_corporate_hqm_yields_fetcher(credentials=test_credentials):
     params = {}
@@ -191,6 +199,7 @@ def test_credit_risk_corporate_hqm_yields_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_sovereign_cds_spreads_fetcher(credentials=test_credentials):
     params = {}
@@ -199,6 +208,7 @@ def test_credit_risk_sovereign_cds_spreads_fetcher(credentials=test_credentials)
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_sovereign_credit_ratings_fetcher(credentials=test_credentials):
     params = {}
@@ -207,6 +217,7 @@ def test_credit_risk_sovereign_credit_ratings_fetcher(credentials=test_credentia
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_sovereign_default_spreads_fetcher(credentials=test_credentials):
     params = {}
@@ -215,6 +226,7 @@ def test_credit_risk_sovereign_default_spreads_fetcher(credentials=test_credenti
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_credit_risk_sovereign_risk_premium_fetcher(credentials=test_credentials):
     params = {}
@@ -223,6 +235,7 @@ def test_credit_risk_sovereign_risk_premium_fetcher(credentials=test_credentials
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_economic_events_fetcher(credentials=test_credentials):
     params = {"from_": "2026-06-19", "to": "2026-07-19"}
@@ -239,6 +252,7 @@ def test_exchanges_list_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 422: requires at least one identifier filter, e.g. filter[symbol]")
 @pytest.mark.record_http
 def test_id_mapping_fetcher(credentials=test_credentials):
     params = {}
@@ -247,6 +261,7 @@ def test_id_mapping_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Fundamentals Data Package")
 @pytest.mark.record_http
 def test_insider_transactions_fetcher(credentials=test_credentials):
     params = {"from_": "2026-06-19", "to": "2026-07-19"}
@@ -263,6 +278,7 @@ def test_internal_user_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Logos PNG Package")
 @pytest.mark.record_http
 def test_logo_fetcher(credentials=test_credentials):
     params = {"symbol": "AAPL.US"}
@@ -271,6 +287,7 @@ def test_logo_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Logos SVG Package")
 @pytest.mark.record_http
 def test_logo_svg_fetcher(credentials=test_credentials):
     params = {"symbol": "AAPL.US"}
@@ -279,6 +296,7 @@ def test_logo_svg_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD ESG Data Package")
 @pytest.mark.record_http
 def test_mp_investverte_companies_fetcher(credentials=test_credentials):
     params = {}
@@ -287,6 +305,7 @@ def test_mp_investverte_companies_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD ESG Data Package")
 @pytest.mark.record_http
 def test_mp_investverte_countries_fetcher(credentials=test_credentials):
     params = {}
@@ -295,6 +314,7 @@ def test_mp_investverte_countries_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD ESG Data Package")
 @pytest.mark.record_http
 def test_mp_investverte_sectors_fetcher(credentials=test_credentials):
     params = {}
@@ -303,6 +323,7 @@ def test_mp_investverte_sectors_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Smart Screener Package")
 @pytest.mark.record_http
 def test_mp_praams_explore_bond_fetcher(credentials=test_credentials):
     params = {}
@@ -311,6 +332,7 @@ def test_mp_praams_explore_bond_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Smart Screener Package")
 @pytest.mark.record_http
 def test_mp_praams_explore_equity_fetcher(credentials=test_credentials):
     params = {}
@@ -319,6 +341,7 @@ def test_mp_praams_explore_equity_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 422: requires filter[underlying_symbol] or filter[contract]")
 @pytest.mark.record_http
 def test_mp_unicornbay_options_contracts_fetcher(credentials=test_credentials):
     params = {
@@ -331,6 +354,7 @@ def test_mp_unicornbay_options_contracts_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 422: requires filter[underlying_symbol] or filter[contract]")
 @pytest.mark.record_http
 def test_mp_unicornbay_options_eod_fetcher(credentials=test_credentials):
     params = {
@@ -343,6 +367,7 @@ def test_mp_unicornbay_options_eod_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Stock Options Package")
 @pytest.mark.record_http
 def test_mp_unicornbay_options_underlying_symbols_fetcher(credentials=test_credentials):
     params = {}
@@ -351,6 +376,7 @@ def test_mp_unicornbay_options_underlying_symbols_fetcher(credentials=test_crede
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Indices Historical Constituents Package")
 @pytest.mark.record_http
 def test_mp_unicornbay_spglobal_list_fetcher(credentials=test_credentials):
     params = {}
@@ -383,6 +409,7 @@ def test_rates_reference_rates_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD All-In-One plan")
 @pytest.mark.record_http
 def test_sanctions_entities_fetcher(credentials=test_credentials):
     params = {}
@@ -391,6 +418,7 @@ def test_sanctions_entities_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD All-In-One plan")
 @pytest.mark.record_http
 def test_sanctions_programs_fetcher(credentials=test_credentials):
     params = {}
@@ -399,6 +427,7 @@ def test_sanctions_programs_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD All-In-One plan")
 @pytest.mark.record_http
 def test_sanctions_sources_fetcher(credentials=test_credentials):
     params = {}
@@ -407,6 +436,7 @@ def test_sanctions_sources_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD All-In-One plan")
 @pytest.mark.record_http
 def test_sanctions_vessels_fetcher(credentials=test_credentials):
     params = {}
@@ -415,6 +445,7 @@ def test_sanctions_vessels_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD All World Extended or All-In-One plan")
 @pytest.mark.record_http
 def test_screener_fetcher(credentials=test_credentials):
     params = {}
@@ -471,6 +502,7 @@ def test_ust_yield_rates_fetcher(credentials=test_credentials):
     assert result is None
 
 
+@pytest.mark.skip(reason="HTTP 403: requires EODHD Trading Hours Package")
 @pytest.mark.record_http
 def test_v2_exchange_details_fetcher(credentials=test_credentials):
     params = {}
