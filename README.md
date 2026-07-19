@@ -1,5 +1,7 @@
 # openbb-eodhd
 
+[![tests](https://github.com/rockbound/openbb-eodhd/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/rockbound/openbb-eodhd/actions/workflows/tests.yml)
+
 OpenBB Platform extension generated from https://eodhd.com/api. Adds 82 GET commands under `obb.eodhd.*`.
 
 ## Install
