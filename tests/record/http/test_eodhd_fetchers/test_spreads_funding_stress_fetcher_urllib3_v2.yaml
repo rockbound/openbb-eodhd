@@ -1,0 +1,62 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://eodhd.com/api/spreads/funding-stress?api_token=MOCK_TOKEN&fmt=json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA92cXVPTQBSG/0onVzo2mH4kbbkTaRlndGAqjhfIdIpUx7GIg+ANw383wVbPx9uc
+        RrJh1xsG0qV5cvI+yWa329vofH49j3ZPbotfFtFu1E26WZwM4k4WtaOPl+fFtvFkMp29PZxM800/
+        58ubxezs+49ot9OOPl1eXdws56s2rbi1arVcfJ6tt67+PMv/pK/Oru532NvJeqsGf7d079qlQId7
+        OdDqvQlQzIiKRjkRQVhvJUT0VbJ/RdQziI4PXk5ne/kPTpRQoKJNDrRqtQYqthIg+uqf3acjCZSO
+        DKCi1LPjF9OD8fHs9eH7sTx3XUpWNM7JJuN9+S9rSnLmCspNLUtKmBrA9yFbveebV/uijjspCNsT
+        idF6Ro/h3dHRePq09eF5q0uORESStP+9Vzuc1pHQ3SNtevRQJK92SLYg8NCnQaqREXEqaq9JuU+1
+        Gt43iDYYznx6gOAaCApOgNwKrnUxz5kleN+x4H1JDLWQIQtXcJoFQ3CmjeTVCskWBB7qBASHOvVF
+        7TUpS2+tfkOdCJAffhMgP/wmQJbf7C7iwG9VQmiFzFi4ftMsGH6zvpPk1QrJFgQe6gT8huntidpr
+        Ugb6AL91eg0ex3prHmgTAXKrdzqUQOnQALL0ZmQO9FbABm+p3fHj6Q2iYB2KpTc7FMmrDZItCDy0
+        CeiNgBNRew06ACWvxe4UVpAA+aE3AXKstwJKLSBDbxax+u1OVcSsMxq63jQL5Xp3WSgkr1ZItiDw
+        UCetN9QpGYnia9IRqHk9fqPuBAXywm8K5NjvjgRKOwaQ4bfjznmqOrVbRSxcv1kWDL8b751jnYai
+        +JqUjdDU6jfqfFIgP/wmQI79HkigdGAAGX4PHfutnycM3tD9plko97vDur2SVyskWxB4qBPwG+o0
+        EMUHpKDm/+K3uthjnQjQBr8bnh+jRG4FV0+z6ImK4hh6+zE7piK2ye/H0xtE0zoSS28/ZscSOTOp
+        SZsdPKdAnujd2PR3pvrnGeyfV5j+dtxB1ycVaiFDFq7gFaa/G++f4/Q2N1qta2gBBR6GYhfl186G
+        P1lAifw42QTI8bVTX8zh/Y4AWddOLz5ZoEL2X+hiXTv9+GRB0hG116Qxu8HWKjjs2xMiPwQnQI4F
+        rw5kCZ45Flw9rkEtZMjCFZxmoVxwNuQvcbVBsgVhhzYBv7VNWdyTE0MaNEY1r8dvPdrCiTzwmwM5
+        9lvdDsE1mQNZfjsevcy2GL0EIQvUb5GFcr8bH7uENnXlxJAGddc/171PDrRB70YHNziRY78Vj4Fj
+        2e3B2CWIWLB2sySU2+3F2GVOLIeVACmouUO9PRu75EQ+6F1h5NIPvWXEwtW7wsilJ3rLNRWatNHh
+        NU7kid9+rdzhQJbhHoyvgZSFa3hgK3dyYrmqApCCmtcjOEyvXyt3OJBjv7eZe+RAlt9+3MFlxsL1
+        u8LKHU/u4HKqD5CCmjv0254MbfoG3tjane066BVW7viht4xYuHpXWLnjid5FUcr1ZhmpVW94cyJA
+        nuhNiNzqvdVXZ3AgS3BWKgeCqx4H1IIABy44zYIhOHs0krzaIdmCwEOfgOCdu9N2dLEoviTnNrq+
+        vJ4viwQkd3nDL9++5kwnp3e/ACN3vvFGRwAA
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 19 Jul 2026 22:47:57 GMT
+      Server:
+      - nginx/1.19.10
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-RateLimit-Limit:
+      - '1200'
+      X-RateLimit-Remaining:
+      - '1175'
+    status:
+      code: 200
+      message: OK
+version: 1

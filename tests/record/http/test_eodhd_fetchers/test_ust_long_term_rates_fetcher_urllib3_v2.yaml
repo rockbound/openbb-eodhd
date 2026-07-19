@@ -1,0 +1,83 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://eodhd.com/api/ust/long-term-rates?api_token=MOCK_TOKEN&fmt=json&from=2026-06-19&to=2026-07-19
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 19 Jul 2026 22:47:58 GMT
+      Server:
+      - nginx/1.19.10
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-RateLimit-Limit:
+      - '1200'
+      X-RateLimit-Remaining:
+      - '1171'
+    status:
+      code: 200
+      message: OK
+version: 1
