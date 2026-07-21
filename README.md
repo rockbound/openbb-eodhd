@@ -242,3 +242,9 @@ Set these in `~/.openbb_platform/user_settings.json` under the matching `<provid
 - Routers mount under a single root namespace (`obb.eodhd.*`) so the extension never shadows OpenBB's own first-party routers.
 - Each `aextract_data` strips single-key envelopes and unpacks single-element lists at the response boundary; sibling scalar fields surface as `AnnotatedResult` metadata in `OBBject.extra`.
 - Non-JSON responses (XML, CSV, plain text) come back as a single-row dict with `content` / `content_type` rather than raising on parse.
+
+## License
+
+Copyright (c) 2026 Rockbound Capital.
+
+Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See [LICENSE](LICENSE).
