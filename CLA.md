@@ -1,74 +1,56 @@
-# Rockbound Capital Individual Contributor License Agreement
+# Contributor License Agreement
 
-Thank you for your interest in contributing to software projects published by
-Rockbound Capital ("Rockbound"). This Contributor License Agreement
-("Agreement") documents the rights you grant to Rockbound for your
-contributions. It is adapted from the Apache Software Foundation Individual
-Contributor License Agreement. Accepting this Agreement through CLA assistant
-constitutes a binding electronic signature.
+Thank you for considering a contribution to a Rockbound Capital repository! This agreement ("Agreement") outlines the rights granted by contributors to Rockbound Capital LLC ("Rockbound"). To accept this Agreement, please use the CLA assistant bot in the repository's pull requests. By doing so, you are entering into a binding legal contract, so make sure to read and understand its contents.
 
-## 1. Definitions
+1. Definitions
 
-"You" means the individual accepting this Agreement.
+"You" refers to the individual or entity holding the copyright or authorized by the copyright holder to enter into this Agreement with Rockbound. If a legal entity is making a contribution, any entities that control, are controlled by, or share common control with that entity will be treated as a single Contributor.
 
-"Contribution" means any original work of authorship, including any
-modifications or additions to an existing work, that You intentionally submit
-to Rockbound for inclusion in any software project owned or managed by
-Rockbound (the "Work"). "Submit" includes any form of electronic, verbal, or
-written communication sent to Rockbound or its representatives, including
-pull requests, issues, and communication on mailing lists or code review
-systems, but excluding communication conspicuously marked "Not a
-Contribution."
+"Contribution" means any original work or any modifications or additions to an existing work that you intentionally provide to Rockbound for inclusion in its repositories. This encompasses any form of communication sent to Rockbound or its representatives, including but not limited to source code control systems and issue tracking systems. Any communication explicitly marked by you as "Not a Contribution" is excluded.
 
-## 2. Grant of Copyright License
+2. Grant of Copyright License
 
-You hereby grant to Rockbound a perpetual, worldwide, non-exclusive,
-no-charge, royalty-free, irrevocable copyright license to reproduce, prepare
-derivative works of, publicly display, publicly perform, sublicense, and
-distribute Your Contributions and such derivative works, and to license Your
-Contributions and such derivative works under any license terms of
-Rockbound's choosing, including open-source licenses and proprietary or
-commercial licenses.
+Under this Agreement, you grant Rockbound and any recipients of the software it distributes a perpetual, worldwide, non-exclusive, royalty-free, irrevocable copyright license to use, modify, display, perform, sublicense, and distribute your Contributions and their derivative works. This includes the right for Rockbound to license your Contributions and their derivative works under any license terms of its choosing, including open-source licenses and proprietary or commercial licenses.
 
-## 3. Grant of Patent License
+3. Grant of Patent License
 
-You hereby grant to Rockbound and to recipients of software distributed by
-Rockbound a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
-irrevocable (except as stated in this section) patent license to make, have
-made, use, offer to sell, sell, import, and otherwise transfer the Work,
-where such license applies only to those patent claims licensable by You that
-are necessarily infringed by Your Contribution alone or by combination of
-Your Contribution with the Work. If any entity institutes patent litigation
-against You or any other entity alleging that Your Contribution, or the Work
-to which You contributed, constitutes direct or contributory patent
-infringement, then any patent licenses granted to that entity under this
-Agreement for that Contribution or Work terminate as of the date such
-litigation is filed.
+You also grant Rockbound and any software recipients a perpetual, worldwide, non-exclusive, royalty-free, irrevocable patent license. This license covers only those patent claims you can license that are necessarily infringed by your Contributions, either alone or combined with the repository to which they were contributed.
 
-## 4. Your Representations
+4. Your Representations
 
-You represent that You are legally entitled to grant the above licenses. If
-your employer has rights to intellectual property that You create that
-includes Your Contributions, You represent that You have received permission
-to make Contributions on behalf of that employer, or that your employer has
-waived such rights for Your Contributions to Rockbound.
+You confirm that:
 
-You represent that each of Your Contributions is Your original creation. If
-any part of a Contribution is not Your original creation, You must identify
-the source and any license or other restriction of which You are aware, and
-that part is submitted separately from this Agreement.
+- You have the legal right to grant the above licenses.
+- Your Contributions are your original creations.
+- You have disclosed any third-party licenses or restrictions related to your Contributions.
+- If your employer has rights to intellectual property in your Contributions, you've received the necessary permissions.
 
-## 5. No Obligation of Support
+5. Notification
 
-You are not expected to provide support for Your Contributions, except to the
-extent You desire to provide support. Unless required by applicable law or
-agreed to in writing, You provide Your Contributions on an "AS IS" basis,
-without warranties or conditions of any kind, either express or implied,
-including any warranties or conditions of title, non-infringement,
-merchantability, or fitness for a particular purpose.
+Should you become aware of any circumstances that render your representations in Section 4 inaccurate, you agree to promptly notify Rockbound at monte@rockbound-capital.com.
 
-## 6. Notification
+6. Acknowledgment
 
-You agree to notify Rockbound of any facts or circumstances of which You
-become aware that would make these representations inaccurate in any respect.
-Contact: monte@rockbound-capital.com
+You affirm:
+
+(a) Your authority to enter into this Agreement.
+(b) Ownership of the copyright and patent claims relevant to your Contribution.
+(c) No violation of third-party rights or previous agreements, including those with your employer. If employed, your employer has approved this Agreement or signed the Entity version. If under eighteen, a parent or guardian must sign on your behalf.
+
+7. Disclaimer
+
+Except for the warranties in Section 4, the Contribution is given "AS IS." Any and all express or implied warranties, including warranties of merchantability, fitness, and non-infringement, are disclaimed. If such warranties can't be disclaimed, they are limited to the shortest duration permitted by law.
+
+8. Limitation of Liability
+
+Neither you nor Rockbound will be liable for any indirect, special, incidental, consequential, or exemplary damages arising from this Agreement, regardless of the theory of liability (contract, tort, etc.).
+
+9. Miscellaneous
+
+Accept this Agreement electronically via the CLA assistant bot in the repository's pull requests. This Agreement takes effect upon signing.
+
+9.1 This Agreement is governed by the laws of the District of Columbia, excluding its conflict of law rules.
+9.2 This Agreement supersedes all prior agreements or understandings regarding your Contributions to Rockbound repositories.
+9.3 Assigning rights or obligations under this Agreement to a third party requires the third party's written commitment to uphold this Agreement's terms.
+9.4 Non-enforcement of any provision of this Agreement in one instance doesn't waive future enforcement rights.
+9.5 If any provision is deemed unenforceable, it will be replaced with an enforceable provision reflecting the original's intent.
